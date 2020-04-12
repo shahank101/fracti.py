@@ -1,9 +1,20 @@
-# fracti.py
-A rudimentary Python class/module to handle fractions.
+# Fracti
 
-I made it just for fun, but it actually turned out to be pretty useful. Still, I can't get the "displaying the fractions" part down, though I hope to do so in the future.
+Fracti is a rudimentary Python library for handling and working with fractions.
 
-Until then, it's here.
+## Usage
 
-# How to use
-Just import it like a python module and have access to the fraction class and its methods and variables.
+```python
+import fracti as fr
+
+a = fr.Fraction(6, 4)
+
+a.print()
+
+print(type(a))
+```
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
